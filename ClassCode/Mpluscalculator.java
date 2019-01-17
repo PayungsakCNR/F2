@@ -1,6 +1,6 @@
 public class Adder() {
 
-    private int num;
+    private int sum;
     
     public Adder(){
         
