@@ -1,9 +1,9 @@
 public class Adder() {
 
-    private int cal;
+    private int num;
     
     public Adder(){
-    
+        
     }
     
     public int sum(){
@@ -11,11 +11,11 @@ public class Adder() {
     }
     
     public int getSum() {
-        
+        return sum;
     }
     
     public int reset() {
-        
+        val = 0;
     }
     
 
