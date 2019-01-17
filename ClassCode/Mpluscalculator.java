@@ -10,6 +10,13 @@ public class Adder() {
     
     }
     
+    public int getSum() {
+        
+    }
+    
+    public int reset() {
+        
+    }
     
 
 
