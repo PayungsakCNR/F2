@@ -1,13 +1,10 @@
 public class Adder() {
 
     private int sum;
+    private int num_mem,num_new;
     
     public Adder(){
-        
-    }
-    
-    public int sum(){
-    
+        sum = num_mem + num_new;
     }
     
     public int getSum() {
@@ -15,7 +12,7 @@ public class Adder() {
     }
     
     public int reset() {
-        val = 0;
+        sum = 0;
     }
     
 
