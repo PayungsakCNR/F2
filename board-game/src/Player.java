@@ -11,7 +11,7 @@ public class Player extends Sprite {
   private Board board;
   private PlayerListener listener;
   private int currentPos = 1;
-  private int score;
+  private int score = 0; //define default score (0)
 
   public Player(String name, int index, Board board, PlayerListener listener) {
     this.name = name;
